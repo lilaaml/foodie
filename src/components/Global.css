@@ -1,0 +1,50 @@
+.nav-item a {
+    color: #fff;
+}
+
+#rightBar {
+    justify-content: flex-end;
+}
+
+.navbar .profile-pic {
+    max-width: 30px;
+    max-height: auto;
+}
+
+.navbar {
+    background-color: var(--secondary-color);
+}
+
+.navbar .logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.navbar .nav-link:hover {
+    color: #d4d4d4;
+}
+
+.search-form input:focus {
+    box-shadow: none;
+}
+
+.search-form .search-btn {
+    background-color: var(--accent-color);
+}
+
+#home {
+    color: #fff;
+}
+
+.item {
+    max-width: 350px;
+    margin: 15px;
+    border-bottom: var(--accent-color) 1px solid;
+}
+
+#footer {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
