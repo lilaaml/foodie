@@ -157,3 +157,65 @@ export const videos = [
         category: "weekly",
     },
 ]
+
+export const discussions = [
+    {
+        username: "Lyndon Lilly",
+        image: "https://xsgames.co/randomusers/assets/avatars/male/55.jpg",
+        text: "Does anyone know how to make a simple pad thai?",
+        replyCount: 4,
+        replies: [
+            {
+                username: "Ethan Lancette",
+                image: "https://xsgames.co/randomusers/assets/avatars/male/49.jpg",
+                text: "Yes, it's quite easily actually",
+            },
+            {
+                username: "Earl Bowsman",
+                image: "https://xsgames.co/randomusers/assets/avatars/male/52.jpg",
+                text: "Certainly!",
+            },
+        ]
+    },
+    {
+        username: "Garnet Foxx",
+        image: "https://xsgames.co/randomusers/assets/avatars/female/71.jpg",
+        text: "I found a lot of fungus on my bread even tho the expire is still in 2 days from now RIP",
+        replyCount: 3,
+        replies: [
+            {
+                username: "Vanita Mclucas",
+                image: "https://xsgames.co/randomusers/assets/avatars/female/49.jpg",
+                text: "That's very unfortunate",
+            },
+            {
+                username: "Roman Castillo",
+                image: "https://xsgames.co/randomusers/assets/avatars/male/5.jpg",
+                text: "Oh no, I wonder why that happened",
+            },
+        ]
+    },
+    {
+        username: "Reynaldo Schmauss",
+        image: "https://xsgames.co/randomusers/assets/avatars/male/76.jpg",
+        text: "What recipe should I try next?",
+        replyCount: 3,
+        replies: [
+            {
+                username: "Josphine Atkeson",
+                image: "https://xsgames.co/randomusers/assets/avatars/female/63.jpg",
+                text: "Ramen could never go wrong",
+            },
+            {
+                username: "Mikki Barojas",
+                image: "https://xsgames.co/randomusers/assets/avatars/female/2.jpg",
+                text: "Fancy some pasta?",
+            },
+            {
+                username: "Vicente Cavaretta",
+                image: "https://xsgames.co/randomusers/assets/avatars/male/40.jpg",
+                text: "Mac and Cheese for the soul!",
+            },
+        ]
+    },
+]

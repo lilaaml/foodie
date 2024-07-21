@@ -1,4 +1,3 @@
-
 import profile_pic from '../assets/profile-pic.png';
 import './Global.css'
 
@@ -11,10 +10,10 @@ const Navbar = () => {
         <div className="navbar-collapse" id="leftBar">
             <ul className="navbar-nav d-flex">
                 <li className="nav-item">
-                    <a href="/" className="nav-link">Discussions</a>
+                    <a href="/discussions" className="nav-link">Discussions</a>
                 </li>
                 <li className="nav-item">
-                    <a href="/" className="nav-link">Recipes</a>
+                    <a href="/recipes" className="nav-link">Recipes</a>
                 </li>
             </ul>
         </div>

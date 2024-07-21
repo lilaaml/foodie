@@ -1,5 +1,5 @@
 import { videos } from '../data/data'
-import './Global.css'
+import './Pages.css'
 
 const Home = () => {
     const recVideo = videos.filter(video => (video.category).includes("recommended"))

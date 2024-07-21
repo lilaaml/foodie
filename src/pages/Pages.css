@@ -1,0 +1,26 @@
+#home, #accordion .card, #recipes {
+    color: #fff;
+}
+
+.item {
+    max-width: 350px;
+    margin: 15px;
+    border-bottom: var(--accent-color) 1px solid;
+}
+
+#accordion .card {
+    background-color: rgb(14, 18, 24);
+}
+
+.repliesQty .btn {
+    color: rgb(5, 110, 255);
+    text-decoration: none;
+}
+
+.repliesQty .btn:hover {
+    color: rgb(0, 86, 206);
+}
+
+#accordion .card {
+    border-radius: 0;
+}
