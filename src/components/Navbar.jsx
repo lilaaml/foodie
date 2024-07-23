@@ -11,11 +11,9 @@ const Navbar = () => {
         <div className="navbar-collapse" id="leftBar">
             <ul className="navbar-nav d-flex">
                 <li className="nav-item">
-                    {/* <a href="/discussions" className="nav-link">Discussions</a> */}
                     <Link to="/discussions" className="nav-link">Discussions</Link>
                 </li>
                 <li className="nav-item">
-                    {/* <a href="/recipes" className="nav-link">Recipes</a> */}
                     <Link to="/recipes" className="nav-link">Recipes</Link>
                 </li>
             </ul>
