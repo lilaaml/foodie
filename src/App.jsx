@@ -19,9 +19,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route index element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/discussions" element={<Discussions />} />
-          <Route path="/recipes" element={<Recipes />} />
+          <Route path="/" element={<Home />} />
+          <Route path="discussions" element={<Discussions />} />
+          <Route path="recipes" element={<Recipes />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
         <Footer />
