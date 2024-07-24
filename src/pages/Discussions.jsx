@@ -26,7 +26,7 @@ const Discussions = () => {
               <button className="btn btn-link fw-bold" data-bs-toggle="collapse" data-bs-target="#collapseReplies" aria-expanded="true" aria-controls="collapseReplies">4 replies</button>
             </div>
 
-            <div id="collapseReplies" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div id="collapseReplies" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
               <div className="card-body">
                 <div className="replies d-flex flex-column my-2 px-2 py-2">
                 {/* <div key={post.replies.id} className="replies d-flex flex-column my-2 px-2 py-2"> */}

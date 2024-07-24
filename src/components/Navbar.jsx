@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import profile_pic from '../assets/profile-pic.png';
 import './Global.css'
 
@@ -10,11 +10,11 @@ const Navbar = () => {
 
         <div className="navbar-collapse" id="leftBar">
             <ul className="navbar-nav d-flex">
-                <li className="nav-item">
-                    <Link to="/discussions" className="nav-link">Discussions</Link>
+                <li className="nav-item mx-2">
+                    <NavLink to="/discussions" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""}>Discussions</NavLink>
                 </li>
-                <li className="nav-item">
-                    <Link to="/recipes" className="nav-link">Recipes</Link>
+                <li className="nav-item mx-2">
+                    <NavLink to="/recipes" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""}>Recipes</NavLink>
                 </li>
             </ul>
         </div>
