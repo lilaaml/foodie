@@ -24,3 +24,23 @@
 #accordion .card {
     border-radius: 0;
 }
+
+.reply-heading img {
+    max-width: 50px;
+    max-height: auto;
+    border-radius: 50%;
+}
+
+.reply-heading .username {
+    align-items: center;
+}
+
+.reply-heading .period {
+    align-items: center;
+    color: #afafaf;
+}
+
+.reply-heading .period:hover {
+    color: #fff;
+    cursor: pointer;
+}

@@ -163,17 +163,20 @@ export const discussions = [
         username: "Lyndon Lilly",
         image: "https://xsgames.co/randomusers/assets/avatars/male/55.jpg",
         text: "Does anyone know how to make a simple pad thai?",
-        replyCount: 4,
+        replyCount: 2,
+        period: "1 day ago",
         replies: [
             {
                 username: "Ethan Lancette",
                 image: "https://xsgames.co/randomusers/assets/avatars/male/49.jpg",
                 text: "Yes, it's quite easily actually",
+                period: "1 day ago"
             },
             {
                 username: "Earl Bowsman",
                 image: "https://xsgames.co/randomusers/assets/avatars/male/52.jpg",
                 text: "Certainly!",
+                period: "1 day ago"
             },
         ]
     },
@@ -182,16 +185,19 @@ export const discussions = [
         image: "https://xsgames.co/randomusers/assets/avatars/female/71.jpg",
         text: "I found a lot of fungus on my bread even tho the expire is still in 2 days from now RIP",
         replyCount: 3,
+        period: "3 weeks ago",
         replies: [
             {
                 username: "Vanita Mclucas",
                 image: "https://xsgames.co/randomusers/assets/avatars/female/49.jpg",
                 text: "That's very unfortunate",
+                period: "3 weeks ago"
             },
             {
                 username: "Roman Castillo",
                 image: "https://xsgames.co/randomusers/assets/avatars/male/5.jpg",
                 text: "Oh no, I wonder why that happened",
+                period: "2 weeks ago",
             },
         ]
     },
@@ -200,21 +206,25 @@ export const discussions = [
         image: "https://xsgames.co/randomusers/assets/avatars/male/76.jpg",
         text: "What recipe should I try next?",
         replyCount: 3,
+        period: "1 month ago (edited)",
         replies: [
             {
                 username: "Josphine Atkeson",
                 image: "https://xsgames.co/randomusers/assets/avatars/female/63.jpg",
                 text: "Ramen could never go wrong",
+                period: "1 month ago"
             },
             {
                 username: "Mikki Barojas",
                 image: "https://xsgames.co/randomusers/assets/avatars/female/2.jpg",
                 text: "Fancy some pasta?",
+                period: "3 weeks ago"
             },
             {
                 username: "Vicente Cavaretta",
                 image: "https://xsgames.co/randomusers/assets/avatars/male/40.jpg",
                 text: "Mac and Cheese for the soul!",
+                period: "5 days ago"
             },
         ]
     },
